@@ -1,0 +1,27 @@
+/* 浏览器默认样式重置 */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* 搜索框公共样式 */
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed #eee;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+.search__left {
+    display: flex;
+}
+.search__left-item {
+    margin-right: 10px;
+}
+
+/* 超链接点击样式 */
+.link {
+    color: #2986dc;
+    cursor: pointer;
+}
